@@ -1,0 +1,101 @@
+// Variables
+
+//Colors
+$darkCyan: hsl(185, 75%, 39%);
+$darkBlue: hsl(229, 23%, 23%);
+$shadowColor: #08465E;
+$darkGrayBlue: hsl(227, 10%, 46%);
+$darkGray: hsl(0, 0%, 59%);
+$white: #fff;
+
+//Fonts
+
+$primary-font-family: 'Kumbh Sans', sans-serif;
+
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $darkCyan;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: bottom 45vh right 50vw, top 45vh left 50vw;
+    background-repeat: no-repeat;
+    font-size: 1.125rem;
+    font-family: $primary-font-family;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.card {
+    background-color: $white;
+    border-radius: 15px;
+    text-align: center;
+    &__image {
+        border-radius: 50%;
+        border: 5px solid $white;
+        position: relative;
+        bottom: -84px;
+    }
+    &__header {
+        background-image: url('../images/bg-pattern-card.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 140px;
+        width: 326px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    &__basic-info {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        color: $darkGrayBlue;
+        font-weight: 300;
+        & h1 {
+            font-size: 1.125rem;
+        }
+        & p {
+            font-size: 0.875rem;
+            padding-top: 10px;
+        }
+        & span {
+            font-weight: 700;
+            color: $darkBlue;
+            padding-right: 5px;
+        }
+    }
+    &__number-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        & .item p:first-child {
+            color: $darkBlue;
+            font-weight: 700;
+        }
+        & .item p:last-child {
+            color: $darkGray;
+            font-weight: 300;
+            font-size: 0.625rem;
+            padding-top: 10px;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+hr {
+    opacity: 0.2;
+}

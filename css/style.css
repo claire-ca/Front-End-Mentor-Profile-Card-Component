@@ -1,0 +1,116 @@
+/* line 15, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 19, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 24, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+body {
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: bottom 45vh right 50vw, top 45vh left 50vw;
+  background-repeat: no-repeat;
+  font-size: 1.125rem;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* line 35, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 43, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* line 47, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__image {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: relative;
+  bottom: -84px;
+}
+
+/* line 53, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__header {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  width: 326px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* line 63, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__basic-info {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color: #6a6f81;
+  font-weight: 300;
+}
+
+/* line 68, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__basic-info h1 {
+  font-size: 1.125rem;
+}
+
+/* line 71, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__basic-info p {
+  font-size: 0.875rem;
+  padding-top: 10px;
+}
+
+/* line 75, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__basic-info span {
+  font-weight: 700;
+  color: #2d3248;
+  padding-right: 5px;
+}
+
+/* line 81, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__number-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+/* line 86, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__number-info .item p:first-child {
+  color: #2d3248;
+  font-weight: 700;
+}
+
+/* line 90, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+.card__number-info .item p:last-child {
+  color: #969696;
+  font-weight: 300;
+  font-size: 0.625rem;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+/* line 99, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+hr {
+  opacity: 0.2;
+}
+
+/*# sourceMappingURL=style.css.map */
