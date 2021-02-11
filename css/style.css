@@ -64,12 +64,12 @@ main {
   padding-top: 70px;
   padding-bottom: 30px;
   color: #6a6f81;
-  font-weight: 300;
 }
 
-/* line 68, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
+/* line 67, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
 .card__basic-info h1 {
   font-size: 1.125rem;
+  font-weight: 300;
 }
 
 /* line 71, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Profile-Card-Component/scss/style.scss */
