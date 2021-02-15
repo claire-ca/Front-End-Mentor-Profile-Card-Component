@@ -43,6 +43,7 @@ main {
 .card {
     background-color: $white;
     border-radius: 15px;
+    box-shadow: 0 50px 100px -20px $shadowColor;
     text-align: center;
     &__image {
         border-radius: 50%;
@@ -98,4 +99,10 @@ main {
 }
 hr {
     opacity: 0.2;
+}
+
+@media screen and (min-width: 1200px) {
+    .card__header {
+        width: 350px;
+    }
 }
